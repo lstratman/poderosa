@@ -1,5 +1,7 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TerminalEmulator", "TerminalEmulator\TerminalEmulator.csproj", "{7F80731C-443A-4533-90D1-1643A5C1364E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Protocols", "Protocols\Protocols.csproj", "{04F18DA5-BF47-48A3-9B8B-B6B93DCBA875}"
@@ -37,6 +39,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TerminalControl", "TerminalControl\TerminalControl.csproj", "{905A3F58-C505-4B2A-B131-69224A1DA2CC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TerminalControlTestApp", "TerminalControlTestApp\TerminalControlTestApp.csproj", "{199FC123-BB32-4493-A6C9-9340FBCFC0DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TerminalControl.NET35", "TerminalControl.NET35\TerminalControl.NET35.csproj", "{EF14952C-043F-45B8-97AD-5EE2D8760124}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -198,6 +202,14 @@ Global
 		{199FC123-BB32-4493-A6C9-9340FBCFC0DF}.Release|Any CPU.Build.0 = Release|Any CPU
 		{199FC123-BB32-4493-A6C9-9340FBCFC0DF}.UnitTest|Any CPU.ActiveCfg = Release|Any CPU
 		{199FC123-BB32-4493-A6C9-9340FBCFC0DF}.UnitTest|Any CPU.Build.0 = Release|Any CPU
+		{EF14952C-043F-45B8-97AD-5EE2D8760124}.Debug(UIDesign)|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF14952C-043F-45B8-97AD-5EE2D8760124}.Debug(UIDesign)|Any CPU.Build.0 = Debug|Any CPU
+		{EF14952C-043F-45B8-97AD-5EE2D8760124}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF14952C-043F-45B8-97AD-5EE2D8760124}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF14952C-043F-45B8-97AD-5EE2D8760124}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF14952C-043F-45B8-97AD-5EE2D8760124}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF14952C-043F-45B8-97AD-5EE2D8760124}.UnitTest|Any CPU.ActiveCfg = Release|Any CPU
+		{EF14952C-043F-45B8-97AD-5EE2D8760124}.UnitTest|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>Poderosa.TerminalControl</id>
-        <version>0.1.0</version>
+        <version>0.2.0</version>
         <title>Terminal Control</title>
         <authors>Luke Stratman</authors>
         <licenseUrl>https://github.com/lstratman/poderosa/blob/master/LICENSE.txt</licenseUrl>
@@ -17,7 +17,9 @@
         </dependencies>
     </metadata>
     <files>
-        <file src="..\bin\Release\Poderosa.PortForwardingCommand.dll" target="lib\Poderosa.PortForwardingCommand.dll" />
-        <file src="..\bin\Release\Poderosa.TerminalControl.dll" target="lib\Poderosa.TerminalControl.dll" />
+        <file src="..\bin\Release\Poderosa.PortForwardingCommand.dll" target="lib\net40\Poderosa.PortForwardingCommand.dll" />
+        <file src="..\bin\Release\Poderosa.TerminalControl.dll" target="lib\net40\Poderosa.TerminalControl.dll" />
+        <file src="..\..\TerminalControl.NET35\bin\Release\Poderosa.PortForwardingCommand.dll" target="lib\net35\Poderosa.PortForwardingCommand.dll" />
+        <file src="..\..\TerminalControl.NET35\bin\Release\Poderosa.TerminalControl.dll" target="lib\net35\Poderosa.TerminalControl.dll" />
     </files>
 </package>
